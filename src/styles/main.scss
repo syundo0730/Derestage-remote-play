@@ -1,0 +1,50 @@
+
+body {
+  cursor: default;
+  -webkit-user-select: none;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 15px;
+  text-align: center;
+  .title {
+    background-image: url("../assets/images/title.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+    margin-right: auto;
+    margin-left : auto;
+  }
+  .button-container {
+    margin: 30px;
+    padding: 10px;
+    width: 400px;
+    height: 70px;
+    margin-right: auto;
+    margin-left : auto;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    .button {
+      background-image: url("../assets/images/deresta-tap.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      border-radius: 20px;
+      margin: 5px;
+      padding: 0px;
+      text-align: center;
+      width: 17%;
+      height: 100%;
+      float: left;
+    }
+    .button:active {
+      background-color: #A9A9A9;
+    }
+  }
+}
